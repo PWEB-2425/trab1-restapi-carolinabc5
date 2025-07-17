@@ -1,0 +1,15 @@
+{
+  "alunos": [
+    {
+      "nome": "Ana",
+      "apelido": "Silva",
+      "curso": "Engenharia Informática",
+      "anoCurricular": 2
+    }
+  ],
+  "cursos": [
+    {
+      "nomeDoCurso": "Engenharia Informática"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "trab1-restapi-carolinabc5",
+  "version": "1.0.0",
+  "description": "Consolidar os conhecimentos em desenvolvimento web com foco na criação, consumo e implementação de APIs RESTful utilizando tecnologias do ecossistema JavaScript:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start:api": "json-server --watch mock-server/bd.json --port 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PWEB-2425/trab1-restapi-carolinabc5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PWEB-2425/trab1-restapi-carolinabc5/issues"
+  },
+  "homepage": "https://github.com/PWEB-2425/trab1-restapi-carolinabc5#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
