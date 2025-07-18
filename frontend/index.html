@@ -1,1 +1,55 @@
 <!-- Página CRUD de Alunos -->
+ <!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestão de Alunos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gestão de Alunos</h1>
+
+  <section>
+    <h2>Lista de Alunos</h2>
+    <table border="1" id="tabela-alunos">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Apelido</th>
+          <th>Curso</th>
+          <th>Ano Curricular</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Alunos serão listados aqui -->
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2 id="form-titulo">Adicionar Aluno</h2>
+    <form id="form-aluno">
+      <input type="hidden" id="aluno-id" />
+      <label>
+        Nome: <input type="text" id="nome" required />
+      </label><br />
+      <label>
+        Apelido: <input type="text" id="apelido" required />
+      </label><br />
+      <label>
+        Curso: <input type="text" id="curso" required />
+      </label><br />
+      <label>
+        Ano Curricular: <input type="number" id="anoCurricular" required min="1" max="10" />
+      </label><br />
+      <button type="submit">Guardar</button>
+      <button type="button" id="btn-cancelar" style="display:none;">Cancelar</button>
+    </form>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

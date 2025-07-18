@@ -5,16 +5,14 @@
       "apelido": "Silva",
       "curso": "Engenharia Informática",
       "anoCurricular": 3,
-      "id": "7088"
+      "id": "1"
     },
     {
-      "id": "1095"
-    },
-    {
-      "id": "3981"
-    },
-    {
-      "id": "76ba"
+      "id": "3",
+      "nome": "João",
+      "apelido": "Machado",
+      "curso": "Medicina",
+      "anoCurricular": 3
     }
   ],
   "cursos": [
