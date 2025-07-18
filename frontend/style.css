@@ -1,1 +1,125 @@
-/* Estilos para a página */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  color: #333;
+  padding: 30px 20px;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: white;
+}
+
+thead {
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
+}
+
+thead th {
+  padding: 15px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+  background-color: #f1f7ff;
+}
+
+tbody td {
+  padding: 15px;
+  font-size: 1rem;
+  color: #34495e;
+}
+
+/* Botões */
+button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+button.edit {
+  background-color: #e67e22 !important; /* laranja */
+  color: white !important;
+}
+
+button.edit:hover {
+  background-color: #cf6f17 !important; /* laranja escuro */
+}
+
+button.delete {
+  background-color: #7f8c8d !important; /* cinza escuro */
+  color: white !important;
+}
+
+button.delete:hover {
+  background-color: #34495e !important; /* preto suave */
+}
+
+
+/* Formulário */
+form {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+input[type="text"], input[type="number"] {
+  flex: 1 1 200px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #1f618d;
+}

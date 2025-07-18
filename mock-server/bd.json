@@ -1,0 +1,24 @@
+{
+  "alunos": [
+    {
+      "nome": "Ana Maria",
+      "apelido": "Silva",
+      "curso": "Engenharia Informática",
+      "anoCurricular": 3,
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "nome": "João",
+      "apelido": "Machado",
+      "curso": "Medicina",
+      "anoCurricular": 3
+    }
+  ],
+  "cursos": [
+    {
+      "nomeDoCurso": "Engenharia Informática",
+      "id": "c77e"
+    }
+  ]
+}
